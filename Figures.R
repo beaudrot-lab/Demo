@@ -7,5 +7,5 @@
 data <- read.csv(file="foxes.csv")
 
 # Plot food availability as a function of home range size
-plot(data$AVFOOD~data$AREA)
 plot(data$AVFOOD~data$AREA, ylab="Food availbility")
+
